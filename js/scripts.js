@@ -7,12 +7,13 @@ $(document).ready(function() {
     while(lowEnd <= highEnd){
     arr.push(lowEnd++);
  }
+
  $("#arr").text(arr);
  $("arr").show();
 
-  })
+ 
   event.preventDefault();
-
+})
 
 })
 
