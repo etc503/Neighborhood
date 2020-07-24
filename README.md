@@ -15,7 +15,8 @@ Specs:
 1) The program returns a range of numbers from 0 to the users inputted number
       Input: "4"
       Output: "0, 1, 2, 3, 4
-2)  
+2)  The program doesn't allow any input other than numbers
+3)
 
 
 Copyright (c) 2020 Erin Cry
