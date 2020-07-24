@@ -14,9 +14,11 @@ Specs:
 
 1) The program returns a range of numbers from 0 to the users inputted number
       Input: "4"
-      Output: "0, 1, 2, 3, 4
+      Output: "0, 1, 2, 3, 4"
 2)  The program doesn't allow any input other than numbers
-3)
+3)  The program changes all digits that contain "1" to "Beep!"
+      Input: "4"
+      Output: "0, Beep!, 2, 3, 4"
 
 
 Copyright (c) 2020 Erin Cry

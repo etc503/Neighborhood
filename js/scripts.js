@@ -6,7 +6,11 @@ $(document).ready(function() {
     var arr = [];
     while(lowEnd <= highEnd){
     arr.push(lowEnd++);
- }
+    
+    arr.forEach(function(number,i) {
+      if (number === 1) arr[i] = "Beep!"; 
+    });
+  } 
 
  $("#arr").text(arr);
  $("arr").show();
@@ -14,6 +18,7 @@ $(document).ready(function() {
  
   event.preventDefault();
 })
+  })
 
-})
+
 
