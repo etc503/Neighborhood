@@ -2,3 +2,17 @@
   display: block;
 }
 
+#number {
+  display: show;
+
+}
+
+#input {
+  width: 375px;
+  height: 25px;
+ }
+
+ #reveal {
+   display:show;
+ }
+ 
