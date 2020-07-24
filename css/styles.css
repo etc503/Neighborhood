@@ -2,17 +2,13 @@
   display: block;
 }
 
-#number {
-  display: show;
-
-}
-
 #input {
   width: 375px;
   height: 25px;
  }
 
- #reveal {
-   display:show;
+ #arr {
+   display: show;
+   font-display: bold;
  }
  

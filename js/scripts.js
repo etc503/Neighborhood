@@ -1,21 +1,18 @@
 $(document).ready(function() {
-  $("form#answer").submit(function() {
-    event.preventDefault();
-    const number = parseInt($("number").val());
+  $("form#answer").submit(function(event){
+    const number = parseInt($("#input").val());
+    var lowEnd = 0;
+    var highEnd = number;
+    var arr = [];
+    while(lowEnd <= highEnd){
+    arr.push(lowEnd++);
+ }
+ $("#arr").text(arr);
+ $("arr").show();
+
   })
-
-  var lowEnd = 1;
-  var highEnd = "number";
-  var reveal = [];
-  while(lowEnd <= highEnd){
-     reveal.push(lowEnd++);
-  }
-
-
-  $("#number").text(number);
-  $("#reveal").show();
-  
-
+  event.preventDefault();
 
 
 })
+
