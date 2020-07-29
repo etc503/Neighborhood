@@ -8,25 +8,27 @@ $(document).ready(function() {
     while(lowEnd <= highEnd){
     arr.push(lowEnd++);
     }
-console.log(arr);
-  var arrMod = arr.forEach(function(number,i) {
+    console.log(arr);
+    var arrMod = [];
+    arr.forEach(function(number,i) {
     
     var digits = number.toString().split("");
-    if (digits.includes ("3")) arr[i] = "Won't you be my neighbor?"; 
-     else if (digits.includes("2")) arr[i] = "Boop!"; 
-     else if (digits.includes ("1")) arr[i] = "Beep!"; 
+    if (digits.includes ("3")) arrMod[i] = "Won't you be my neighbor?"; 
+     else if (digits.includes("2")) arrMod[i] = "Boop!"; 
+     else if (digits.includes ("1")) arrMod[i] = "Beep!"; 
      else {
-      return number;
+       arrMod[i] = number.toString();
     
     };
-   console.log(arrMod); 
   });
-  return arrMod.join(", ");
+  console.log(arrMod);
+  var result = arrMod.join(", ");
+  console.log(result); 
+  $("#arrMod").text(result);
+  $("#output").show();
   });
 
 
- $("#arrMod").show();
 
- 
   
 })
